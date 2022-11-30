@@ -1,0 +1,9 @@
+<h3 class="headi">Education</h3>
+<ul class="width">
+    <li *ngFor="let level of education">
+        <div class="space" id="bold">{{level.school}}</div>
+        <div class="space">{{level.program}}</div>
+        <div class="space point">{{level.cgpa}}</div>
+        <div class="space point">{{level.from}}-{{level.to}}</div>
+    </li>
+</ul>

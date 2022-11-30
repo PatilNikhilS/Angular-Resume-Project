@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+h1,h2,h3,h4{
+    font-family:'Merriweather', serif;
+    margin-block-start: 10px;
+    margin-block-end: 15px
+}
+p, a, li{
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    padding-top: 5px;
+    padding-bottom: 2px;
+}
+.fa-solid, .fa-brands{
+    margin-left: -10px;
+    margin-right: 10px;
+}
+.fa-location-dot{
+    color: rgb(57, 220, 241);
+}
+.fa-phone{
+color: rgb(10, 150, 45);
+
+}
+.fa-envelope{
+color: red;
+}
+.fa-linkedin{
+    color: rgb(71, 74, 236);
+}
+.width{
+    width: 57%;
+}
+ul{
+    list-style-type: none;
+    padding-inline-start: 5px;
+}
