@@ -1,0 +1,16 @@
+<div col-8>
+<app-name-templat [name]="resume?.name"
+[title]="resume?.title"
+[address]="resume?.address"
+[ad1]="resume?.ad1"
+[phone]="resume?.phone"
+[email]="resume?.email"
+[linkedin]="resume?.linkedin"
+[github]="resume?.github"></app-name-templat>
+<app-objective [objective]="resume?.objective" ></app-objective>
+<app-skills [skills]="resume?.skills"></app-skills>
+<app-project [project]="resume?.project"></app-project>
+<app-education [education]="resume?.education"></app-education>
+<app-extra-carricular [extra]="resume?.extra"></app-extra-carricular>
+<app-languages [languages]="resume?.languages"></app-languages>
+</div>
